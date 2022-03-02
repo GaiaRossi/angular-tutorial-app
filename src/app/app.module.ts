@@ -8,6 +8,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 /**per poter usare ngModel devo importare FormsModule */
 import { FormsModule } from '@angular/forms';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { MessagesComponent } from './messages/messages.component';
 
 
 
@@ -15,7 +16,8 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   /**devo aggiungerlo anche qui cosi lo importa */
   imports: [
