@@ -7,13 +7,15 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 /**per poter usare ngModel devo importare FormsModule */
 import { FormsModule } from '@angular/forms';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroDetailComponent
   ],
   /**devo aggiungerlo anche qui cosi lo importa */
   imports: [
